@@ -1,0 +1,26 @@
+from pytest_bdd import given, when, then, scenarios
+import 
+
+scenarios("../features/")
+
+
+@given("token generation")
+def get_token():
+    TOKEN.get_token()
+
+
+@when(
+    ","
+    " "
+)
+def when_capture_third_data(
+    
+):
+    dict_third_data = {
+        
+    }
+
+
+@then("show status 201")
+def v():
+    assert()["status"] == 201
